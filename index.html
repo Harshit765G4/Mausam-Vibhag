@@ -68,6 +68,15 @@
                 document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
                 document.querySelector(".wind").innerHTML = data.wind.speed + " Km/h";
 
+                const weatherMap = {
+                    "clouds": "clouds.png",
+                    "rain": "rain.png",
+                    "clear": "clear.png",
+                    "snow": "snow.png",
+                    "drizzle": "drizzle.png",
+                    "mist": "mist.png"
+                };
+
             } catch (error) {
                 console.error("Error:", error.message);
                 alert("Failed to fetch weather data");
