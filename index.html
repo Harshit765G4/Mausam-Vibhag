@@ -72,17 +72,18 @@
                 document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
                 document.querySelector(".wind").innerHTML = data.wind.speed + " Km/h";
     
-                const weatherMap = {
-                    "clouds": "clouds.png",
-                    "rain": "rain.png",
-                    "clear": "clear.png",
-                    "snow": "snow.png",
-                    "drizzle": "drizzle.png",
-                    "mist": "mist.png"
-                };
-    
-                const weatherCondition = data.weather[0].main.toLowerCase();
-                weatherIcon.src = `weather-app-img/images/${weatherMap[weatherCondition] || "clear.png"}`;
+                if(data.weather[0].main == "Clouds") {
+                    weatherIcon.src = "weather-app-img/images/cloudy.png";
+                } else if(data.weather[0].main == "Rain") {
+                    weatherIcon.src = "weather-app-img/images/rain.png";
+                } else if(data.weather[0].main == "Clear") {
+                    weatherIcon.src = "weather-app-img/images/sunny.png";
+                } else if(data.weather[0].main == "Drizzle") {
+                    weatherIcon.src = "weather-app-img/images/drizzle.png";
+                }  else {
+                    weatherIcon.src = "weather-app-img/images/snow.png";
+                }
+                
     
             } catch (error) {
                 console.error("Error:", error.message);
