@@ -54,11 +54,17 @@
                 const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
                 const data = await response.json();
 
+                if (response.status !== 200) {
+                    document.querySelector(".error").style.display = "block";
+                    document.querySelector(".weather").style.display = "none";
+                    return;
+                }
+
                 document.querySelector(".city").innerHTML = data.name;
                 document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
                 document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
                 document.querySelector(".wind").innerHTML = data.wind.speed + " Km/h";
-                
+
             } catch (error) {
                 console.error("Error:", error.message);
                 alert("Failed to fetch weather data");
