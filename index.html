@@ -77,6 +77,9 @@
                     "mist": "mist.png"
                 };
 
+                const weatherCondition = data.weather[0].main.toLowerCase();
+                weatherIcon.src = `weather-app-img/images/${weatherMap[weatherCondition] || "clear.png"}`;
+
             } catch (error) {
                 console.error("Error:", error.message);
                 alert("Failed to fetch weather data");
