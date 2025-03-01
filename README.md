@@ -5,3 +5,5 @@ THIS IS WORKING FINE BUT I NEED TO LEARN WHILE DEPLOYING MY IMAGES IN LOCAL FILE
 AND I ALSO NEEED TO STUDY FOR EXAMS ITS GOING TO BE TOUGH RIGHT NOW
 
 This project is completed 
+ek question toh essa atta hai jo passa deta hai
+sir nai pucha iss sem ho jaye ga pura
