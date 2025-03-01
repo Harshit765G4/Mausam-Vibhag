@@ -11,3 +11,5 @@ sir nai pucha iss sem ho jaye ga pura
 inn  sab sai ni honne val 
 yai vala hai tagda one
 i do my best in this 
+
+ek toh 10 dikTE ALAG HAI pata ni kya kare
