@@ -10,3 +10,4 @@ Daily commits
 exsms going on so no new commmiat
 now exams are over
 now hustle is going to start
+studies
