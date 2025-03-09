@@ -5,9 +5,3 @@ THIS IS WORKING FINE BUT I NEED TO LEARN WHILE DEPLOYING MY IMAGES IN LOCAL FILE
 AND I ALSO NEEED TO STUDY FOR EXAMS ITS GOING TO BE TOUGH RIGHT NOW
 
 
-
-Daily commits
-exsms going on so no new commmiat
-now exams are over
-now hustle is going to start
-studies
