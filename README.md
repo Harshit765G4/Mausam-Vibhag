@@ -53,10 +53,6 @@ Mausam Vibhag fetches weather data from a third-party API service. Ensure you ha
    ```
 3. Save the changes and restart the application.
 
-## 📸 Screenshots
-
-_Add some screenshots of the app interface here_
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you’d like to improve the project, follow these steps:
