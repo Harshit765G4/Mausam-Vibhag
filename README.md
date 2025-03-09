@@ -77,6 +77,6 @@ Contributions are welcome! If you’d like to improve the project, follow these 
 For any inquiries or suggestions, reach out to me:
 
 - GitHub: [Harshit765G4](https://github.com/Harshit765G4)
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [gargharshit765@gmail.com](mailto:gargharshit@gmail.com)
 
 
