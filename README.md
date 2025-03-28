@@ -49,7 +49,7 @@ Mausam Vibhag fetches weather data from a third-party API service. Ensure you ha
 1. Register on [OpenWeather](https://openweathermap.org/) (or any other API provider) to obtain an API key.
 2. Add the API key inside the JavaScript file (`script.js` or relevant file):
    ```js
-   const API_KEY = "your_api_key_here";
+   const API_KEY = "Enter_your_api_key_here";
    ```
 3. Save the changes and restart the application.
 
